@@ -9,7 +9,7 @@ export function Hero() {
         <span>Independent security researcher</span>
       </div>
       <div className="hero-main">
-        <div className="availability"><span />Independent research practice</div>
+        <div className="availability"><span />Find. Verify. Disclose.</div>
         <h1 id="hero-title"><span>Vansh</span><span>Marwaha</span></h1>
         <div className="hero-statement">
           <p className="hero-role">{profile.role}<br /><span>{profile.focus}</span></p>

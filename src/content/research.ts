@@ -2,13 +2,6 @@ import type { ResearchRecord } from "@/types/content";
 
 export const researchRecords: ResearchRecord[] = [
   {
-    target: "SSC.gov.in",
-    category: "JWT / Authentication",
-    summary:
-      "Exposed client-side JWT secrets enabling JWT minting, authentication bypass, and administrative-panel access.",
-    status: "Responsibly disclosed",
-  },
-  {
     target: "URISE — Uttar Pradesh",
     category: "SQL injection",
     summary:
@@ -55,20 +48,6 @@ export const researchRecords: ResearchRecord[] = [
     category: "Cloud storage exposure",
     summary:
       "Reported anonymous access to cloud storage containing large collections of audio, video, documents, and bot assets.",
-    status: "Responsibly disclosed",
-  },
-  {
-    target: "Skit.ai",
-    category: "Unauthenticated LLM / API access",
-    summary:
-      "Reported unauthenticated ACP Sandbox access capable of returning paid Anthropic inference, creating potential API cost exposure.",
-    status: "Responsibly disclosed",
-  },
-  {
-    target: "Haptik",
-    category: "File write → RCE",
-    summary:
-      "Reported an unauthenticated arbitrary file-write vulnerability in Jfrog Artifactory OSS 4.5.1 / Tomcat that could lead to remote code execution.",
     status: "Responsibly disclosed",
   },
   {
